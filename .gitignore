@@ -1,0 +1,15 @@
+# ignoring the logs of the experiments
+all_expts/
+
+# ignoring the resources or markdown files
+resources/
+
+# ignoring the cache
+__pycache__/
+
+
+# ignoring the data
+data/
+
+# ignoring the papers
+papers/
