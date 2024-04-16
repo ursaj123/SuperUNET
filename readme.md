@@ -1,5 +1,6 @@
 # SuperUNET: A modularized generalizable architecture
 ![SuperUNET modules](arch.png)
+
 SuperUNET is a modification of UNET and it integrates a dynamic receptive field module and a fusion upsampling module into the classical U-Net architecture. The model was developed and tested to segment retinal vessels, gastrointestinal (GI) polyps, skin lesions on several image types (i.e., fundus images, endoscopic images, dermoscopic images). Upsampled fusion and dynamic receptive fields are two mechanisms that attempt to extract and retain significant features, which ensures that meaningful features are leveraged for the segmentation map.
 For details see the [paper](https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC9070860&blobtype=pdf)
 
